@@ -53,13 +53,14 @@ class _Home_PageState extends State<Home_Page> {
                       arguments: link[index]);
                 },
                 child: Container(
-                  height: 450,
+                  height: 400,
                   width: 400,
+                  //color: Colors.white,
                   margin: EdgeInsets.all(15),
                   child: Column(
                     children: [
                       Container(
-                        height: 400,
+                        height: 300,
                         width: 400,
                         child: Column(
                           children: [
